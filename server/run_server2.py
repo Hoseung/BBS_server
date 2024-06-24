@@ -9,7 +9,7 @@ from flask import request
 from werkzeug.utils import secure_filename
 from flask import send_file
 
-from bbsQt.constants import TEST_CLIENT, DEBUG
+from bbsQts.constants import TEST_CLIENT, DEBUG
 from server_utils import (
     fn_pred, 
     request_summary, 
@@ -179,7 +179,7 @@ if __name__ == '__main__':
         fase.USE_CUDA = True
 
     # import HEAAN_Evaluator *after* setting which HEAAN variants to use
-    from bbsQt.core.evaluator import HEAAN_Evaluator
+    from bbsQts.core.evaluator import HEAAN_Evaluator
 
     q_key = Queue(maxsize=8)
     q_text = Queue(maxsize=8)

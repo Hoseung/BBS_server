@@ -1,0 +1,7 @@
+README.md
+setup.py
+bbsQts.egg-info/PKG-INFO
+bbsQts.egg-info/SOURCES.txt
+bbsQts.egg-info/dependency_links.txt
+bbsQts.egg-info/not-zip-safe
+bbsQts.egg-info/top_level.txt
